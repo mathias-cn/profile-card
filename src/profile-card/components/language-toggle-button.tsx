@@ -7,7 +7,7 @@ interface ColorToggleButtonProps {
     handleChange: () => void
 }
 
-export default function ColorToggleButton({ language, setLanguage, handleChange}: ColorToggleButtonProps) {
+export default function ColorToggleButton({ language, handleChange}: ColorToggleButtonProps) {
 
   return (
     <div className="absolute top-2 right-2 bg-blue-50 rounded-md">

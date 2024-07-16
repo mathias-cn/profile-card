@@ -6,7 +6,7 @@ export function ProfileCard() {
   const [language, setLanguage] = React.useState('en');
 
   const handleChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newAlignment: string,
   ) => {
     setLanguage(newAlignment);
@@ -18,7 +18,6 @@ export function ProfileCard() {
         <ColorToggleButton
           language={language}
           handleChange={handleChange}
-          setLanguage={setLanguage}
         />
       </div>
 
