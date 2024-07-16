@@ -2,10 +2,10 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
 interface ColorToggleButtonProps {
-    language: string
-    setLanguage: () => void
-    handleChange: () => void
+  language: string;
+  handleChange: (_event: React.MouseEvent<HTMLElement>, newLanguage: string) => void;
 }
+
 
 export default function ColorToggleButton({ language, handleChange}: ColorToggleButtonProps) {
 

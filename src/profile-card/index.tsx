@@ -7,9 +7,9 @@ export function ProfileCard() {
 
   const handleChange = (
     _event: React.MouseEvent<HTMLElement>,
-    newAlignment: string,
+    newLanguage: string,
   ) => {
-    setLanguage(newAlignment);
+    setLanguage(newLanguage);
   };
 
   return (
